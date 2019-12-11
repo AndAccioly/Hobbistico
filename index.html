@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="teste.js"></script>
+
+<script>
+    function start(){
+        cabeca()
+        header()
+        footer()
+    }
+</script>
+
+<html>
+    <head>
+        <title>Hobbístico</title>
+    </head>
+
+    <body onload = "start()">
+        <section id="head"></section>      
+        
+        <p id="cabeca"></p>
+
+        <form id="formulario">
+            Nome: <input type="text" id="nome" ><br>
+            <input type="submit" onclick="return verNome()" value="Vai!">
+            
+        </form>
+
+        <p id="resultado"></p>
+
+        <a href="login.html">Login</a><br>
+        <a href="form.html">Formulario</a>
+
+        <section id="footer"></section>
+
+    </body>
+
+</html>
